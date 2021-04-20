@@ -1,15 +1,15 @@
 void main() {
   var deck = new Deck();
 
-//   print(deck);
+  print(deck);
 
-//   deck.printCards();
+  deck.printCards();
 
-//   deck.shuffleCards();
-//   deck.printCards();
-//   var hand = deck.deal(6);
-//   print(hand);
-//   deck.printCards();
+  deck.shuffleCards();
+  deck.printCards();
+  var hand = deck.deal(6);
+  print(hand);
+  deck.printCards();
   
   var cards = deck.cardsWithSuit(color: 'Clubs');
   print(cards);
